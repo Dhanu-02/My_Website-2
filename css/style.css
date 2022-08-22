@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  margin: 0;
+  position: static;
+  color: #66BFBF;
+  font-family: 'Cinzel Decorative', cursive;
+  line-height: 2;
+
+}
+h2{
+  color: #66BFBF;
+  font-size: 30px;
+}
+h3{
+  color: #11999E;
+}
+a{
+  color: #11999E;
+}
+p {
+  margin: 0;
+  font-family: 'Lemonada', cursive;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  font-weight: bold;
+}
+.skill-1{
+  width: 25%;
+  margin-right: 25px;
+  float: left;
+}
+.skill-2{
+  width: 25%;
+  margin-left: 25px;
+  float: right;
+}
+ul{
+  display:inline-block;
+  font-family: 'Lemonada', cursive;
+
+}
+.contact-me{
+  font-family: 'Cinzel Decorative', cursive;
+}
+.get{
+  font-family: 'Lemonada', cursive;
+}
+hr {
+  border-top-style: dotted;
+  width: 10%;
+  border-bottom: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-color: #EAF6F6;
+  border-width: 15px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.top-container{
+  position: relative;
+  background-color: #EAF6F6;
+  padding: 20px;
+}
+.bottom-container{
+  position: relative;
+  background-color: #66BFBF;
+  height: 200px;
+}
+.top-cloud {
+  position: relative;
+  left: 30%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
+.footer-link1{
+  position: absolute;
+  top: 50px;
+  bottom: 20px;
+  right: 55%;
+}
+.footer-link2{
+  position: absolute;
+  top: 50px;
+  bottom: 20px;
+  right: 49%;
+}
+.footer-link3{
+  position: absolute;
+  top: 50px;
+  bottom: 20px;
+  right: 44%;
+}
+.footer-link4{
+  position: absolute;
+  top: 50px;
+  bottom: 20px;
+  right: 40.5%;
+}
+.copy-write{
+  position: absolute;
+  color: #EAF6F6;
+  top: 100px;
+  bottom: 20px;
+  right: 44%;
+}
+
+/* CSS */
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 15%;
+  will-change: transform;
+  margin-bottom: 20px;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
